@@ -5,6 +5,7 @@
 
     <modules>
         <module>springboot</module>
+        <module>nowcoder</module>
     </modules>
 
     <groupId>com.example</groupId>
