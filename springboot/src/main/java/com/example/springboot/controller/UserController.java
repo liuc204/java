@@ -1,14 +1,13 @@
 package com.example.springboot.controller;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.example.springboot.bean.User;
 import com.example.springboot.service.UserPlusService;
 import com.example.springboot.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
+import javax.websocket.server.PathParam;
 import java.util.List;
 
 /**
@@ -39,6 +38,23 @@ public class UserController {
     public boolean saveOrUpdate(@RequestBody User user){
         return userService.saveOrUpdate(user);
     }
+
+    @RequestMapping(path = "/user/count", method = RequestMethod.GET)
+    public long count(@RequestBody User user){
+        return userService.count(user);
+    }
+
+    @RequestMapping(path = "/user/selectAll1", method = RequestMethod.GET)
+    public List<User> selectAll1(@RequestBody User user){
+        return userService.selectAll1(user);
+    }
+
+    @RequestMapping(path = "/user/selectById", method = RequestMethod.GET)
+    public List<User> count(@RequestParam("id") int id){
+        System.out.println("id = " + id);
+        return userService.selectById(id);
+    }
+
 
     @Autowired
     public void setAppService(UserService appService) {
