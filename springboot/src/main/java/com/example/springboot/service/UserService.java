@@ -47,7 +47,7 @@ public class UserService {
         return userPlusService.count(queryWrapper);
     }
 
-    public List<User> selectAll1(User user) {
+    public List<User> selectAll1() {
         QueryWrapper<User> wrapper = new QueryWrapper<User>();
         wrapper.eq("age", 30);
         return userMapper.selectAll1(wrapper);

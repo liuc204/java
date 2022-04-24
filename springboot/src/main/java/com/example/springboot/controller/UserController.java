@@ -45,8 +45,8 @@ public class UserController {
     }
 
     @RequestMapping(path = "/user/selectAll1", method = RequestMethod.GET)
-    public List<User> selectAll1(@RequestBody User user){
-        return userService.selectAll1(user);
+    public List<User> selectAll1(){
+        return userService.selectAll1();
     }
 
     @RequestMapping(path = "/user/selectById", method = RequestMethod.GET)
