@@ -1,0 +1,1427 @@
+{
+  "code": 200,
+  "message": "请求成功",
+  "result": {
+    "list": [
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 410994195424126683,
+        "created_at": "2022-06-06T07:40:30.23Z",
+        "name": "d-ecs-41099419",
+        "service_id": 410994195357017819,
+        "service_name": "a0c38791b-39f5-46b1-8533-41c8e2cf564c-nodegroup-06061540-vmg",
+        "area_name": "硅谷",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "39fd6feb-22de-4fdd-8066-40dfae839cee",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 0,
+              "master": true,
+              "netcard_id": 410994195424192219,
+              "netcard_name": "d-eni-41099419",
+              "private_ip": "172.16.1.107",
+              "public_ip": "",
+              "inner_floating_ip": "102.44.1.111"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "8211887846521196544",
+          "subnet_id": "8211887930428248064",
+          "private_ip": "192.168.0.250",
+          "netcard_id": 410994195424257755,
+          "netcard_name": "d-eni-41099419",
+          "inner_floating_ip": "102.44.6.43"
+        },
+        "image": {
+          "id": "1725",
+          "name": "rabbitmq_3.8.8_v1.5_1",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "0.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 410994194769815271,
+          "name": "a0c38791b-39f5-46b1-8533-41c8e2cf564c-nodegroup-06061540-sg"
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 40,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 410994195390703323,
+        "created_at": "2022-06-06T07:40:30.218Z",
+        "name": "d-ecs-41099419",
+        "service_id": 410994195357017819,
+        "service_name": "a0c38791b-39f5-46b1-8533-41c8e2cf564c-nodegroup-06061540-vmg",
+        "area_name": "硅谷",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "1feadaf0-cfc5-472e-9571-99198f6f642c",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 0,
+              "master": true,
+              "netcard_id": 410994195407349467,
+              "netcard_name": "d-eni-41099419",
+              "private_ip": "172.16.1.90",
+              "public_ip": "",
+              "inner_floating_ip": "102.44.3.153"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "8211887846521196544",
+          "subnet_id": "8211887930428248064",
+          "private_ip": "192.168.0.4",
+          "netcard_id": 410994195407415003,
+          "netcard_name": "d-eni-41099419",
+          "inner_floating_ip": "102.44.3.117"
+        },
+        "image": {
+          "id": "1725",
+          "name": "rabbitmq_3.8.8_v1.5_1",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "0.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 410994194769815271,
+          "name": "a0c38791b-39f5-46b1-8533-41c8e2cf564c-nodegroup-06061540-sg"
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 40,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 410994195373795035,
+        "created_at": "2022-06-06T07:40:30.201Z",
+        "name": "d-ecs-41099419",
+        "service_id": 410994195357017819,
+        "service_name": "a0c38791b-39f5-46b1-8533-41c8e2cf564c-nodegroup-06061540-vmg",
+        "area_name": "硅谷",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "f5c65ccf-6d60-433f-b309-33244d4fda8b",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 0,
+              "master": true,
+              "netcard_id": 410994195373860571,
+              "netcard_name": "d-eni-41099419",
+              "private_ip": "172.16.3.190",
+              "public_ip": "",
+              "inner_floating_ip": "102.44.3.217"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "8211887846521196544",
+          "subnet_id": "8211887930428248064",
+          "private_ip": "192.168.0.54",
+          "netcard_id": 410994195373926107,
+          "netcard_name": "d-eni-41099419",
+          "inner_floating_ip": "102.44.1.91"
+        },
+        "image": {
+          "id": "1725",
+          "name": "rabbitmq_3.8.8_v1.5_1",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "0.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 410994194769815271,
+          "name": "a0c38791b-39f5-46b1-8533-41c8e2cf564c-nodegroup-06061540-sg"
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 40,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 410276816817930402,
+        "created_at": "2022-06-01T08:53:59.266Z",
+        "name": "d-ecs-41027681",
+        "service_id": 410276816767467682,
+        "service_name": "aa043906e-9efd-4b4c-8b1a-36ee94549451-nodegroup-06011653-vmg",
+        "area_name": "硅谷",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "4a3e65d4-8043-44ac-b776-99450bb472c7",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 0,
+              "master": true,
+              "netcard_id": 410276816817995938,
+              "netcard_name": "d-eni-41027681",
+              "private_ip": "172.16.3.95",
+              "public_ip": "",
+              "inner_floating_ip": "102.44.0.232"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "8220261246071173120",
+          "subnet_id": "8220261329965641728",
+          "private_ip": "192.168.0.31",
+          "netcard_id": 410276816834576546,
+          "netcard_name": "d-eni-41027681",
+          "inner_floating_ip": "102.44.2.115"
+        },
+        "image": {
+          "id": "1725",
+          "name": "rabbitmq_3.8.8_v1.5_1",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "0.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 410276816146710664,
+          "name": "aa043906e-9efd-4b4c-8b1a-36ee94549451-nodegroup-06011653-sg"
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 45,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 410276816801087650,
+        "created_at": "2022-06-01T08:53:59.252Z",
+        "name": "d-ecs-41027681",
+        "service_id": 410276816767467682,
+        "service_name": "aa043906e-9efd-4b4c-8b1a-36ee94549451-nodegroup-06011653-vmg",
+        "area_name": "硅谷",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "2aaf9d4b-472a-4bd8-9dfc-7ae984380f69",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 0,
+              "master": true,
+              "netcard_id": 410276816801153186,
+              "netcard_name": "d-eni-41027681",
+              "private_ip": "172.16.0.115",
+              "public_ip": "",
+              "inner_floating_ip": "102.44.6.52"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "8220261246071173120",
+          "subnet_id": "8220261329965641728",
+          "private_ip": "192.168.0.220",
+          "netcard_id": 410276816801218722,
+          "netcard_name": "d-eni-41027681",
+          "inner_floating_ip": "102.44.5.26"
+        },
+        "image": {
+          "id": "1725",
+          "name": "rabbitmq_3.8.8_v1.5_1",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "0.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 410276816146710664,
+          "name": "aa043906e-9efd-4b4c-8b1a-36ee94549451-nodegroup-06011653-sg"
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 45,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 410276816767664290,
+        "created_at": "2022-06-01T08:53:59.239Z",
+        "name": "d-ecs-41027681",
+        "service_id": 410276816767467682,
+        "service_name": "aa043906e-9efd-4b4c-8b1a-36ee94549451-nodegroup-06011653-vmg",
+        "area_name": "硅谷",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "a381e91e-d7b4-40d6-91c3-c1b972cfbd3a",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 0,
+              "master": true,
+              "netcard_id": 410276816784244898,
+              "netcard_name": "d-eni-41027681",
+              "private_ip": "172.16.2.224",
+              "public_ip": "",
+              "inner_floating_ip": "102.44.6.64"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "8220261246071173120",
+          "subnet_id": "8220261329965641728",
+          "private_ip": "192.168.0.127",
+          "netcard_id": 410276816784310434,
+          "netcard_name": "d-eni-41027681",
+          "inner_floating_ip": "102.44.3.67"
+        },
+        "image": {
+          "id": "1725",
+          "name": "rabbitmq_3.8.8_v1.5_1",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "0.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 410276816146710664,
+          "name": "aa043906e-9efd-4b4c-8b1a-36ee94549451-nodegroup-06011653-sg"
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 45,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 401574849379739372,
+        "created_at": "2022-04-02T08:07:42.489Z",
+        "name": "d-ecs-40157484",
+        "service_id": 401574849379608300,
+        "service_name": "network-proxy-sh-ansible",
+        "area_name": "",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "8dfa8208-7cec-458b-aca4-bdfecde2fb1a",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 0,
+              "master": true,
+              "netcard_id": 401574849396385516,
+              "netcard_name": "d-eni-40157484",
+              "private_ip": "172.16.2.39",
+              "public_ip": "",
+              "inner_floating_ip": "102.44.6.230"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "",
+          "subnet_id": "",
+          "private_ip": "",
+          "netcard_id": 0,
+          "netcard_name": "",
+          "inner_floating_ip": ""
+        },
+        "image": {
+          "id": "180",
+          "name": "CentOS 7.6 64位",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "2"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 0,
+          "name": ""
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 500,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 401574820271269612,
+        "created_at": "2022-04-02T08:07:25.139Z",
+        "name": "d-ecs-40157482",
+        "service_id": 401574820271138540,
+        "service_name": "network-proxy-sh",
+        "area_name": "",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "47466569-7a68-413e-854f-b9fee9677bf1",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 10,
+              "master": true,
+              "netcard_id": 401574820287915756,
+              "netcard_name": "d-eni-40157482",
+              "private_ip": "172.16.1.143",
+              "public_ip": "101.44.4.90",
+              "inner_floating_ip": "102.44.4.55"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "",
+          "subnet_id": "",
+          "private_ip": "",
+          "netcard_id": 0,
+          "netcard_name": "",
+          "inner_floating_ip": ""
+        },
+        "image": {
+          "id": "180",
+          "name": "CentOS 7.6 64位",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131671680,
+          "name": "dcs.s1.large4",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 2,
+          "ram": 4096,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "2"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 0,
+          "name": ""
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 500,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 401574427264919276,
+        "created_at": "2022-04-02T08:03:30.882Z",
+        "name": "d-ecs-40157442",
+        "service_id": 401574427248076524,
+        "service_name": "virtualization-agent-sh",
+        "area_name": "",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "6d3ae8e4-797b-4fb3-8903-165e3e2d79fe",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 10,
+              "master": true,
+              "netcard_id": 401574427264984812,
+              "netcard_name": "d-eni-40157442",
+              "private_ip": "172.16.0.199",
+              "public_ip": "101.44.4.28",
+              "inner_floating_ip": "102.44.6.81"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "",
+          "subnet_id": "",
+          "private_ip": "",
+          "netcard_id": 0,
+          "netcard_name": "",
+          "inner_floating_ip": ""
+        },
+        "image": {
+          "id": "180",
+          "name": "CentOS 7.6 64位",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "1.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 0,
+          "name": ""
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 200,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 401574229461477100,
+        "created_at": "2022-04-02T08:01:32.98Z",
+        "name": "d-ecs-40157422",
+        "service_id": 401574229444699884,
+        "service_name": "kafka3-sh",
+        "area_name": "",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "4adc3f54-e308-44f8-ae0b-775e9bd92c78",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 10,
+              "master": true,
+              "netcard_id": 401574229461542636,
+              "netcard_name": "d-eni-40157422",
+              "private_ip": "172.16.0.72",
+              "public_ip": "101.44.4.99",
+              "inner_floating_ip": "102.44.1.179"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "",
+          "subnet_id": "",
+          "private_ip": "",
+          "netcard_id": 0,
+          "netcard_name": "",
+          "inner_floating_ip": ""
+        },
+        "image": {
+          "id": "180",
+          "name": "CentOS 7.6 64位",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "1.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 0,
+          "name": ""
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 300,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 401574212785055468,
+        "created_at": "2022-04-02T08:01:23.045Z",
+        "name": "d-ecs-40157421",
+        "service_id": 401574212784924396,
+        "service_name": "kafka2-sh",
+        "area_name": "",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "2b7ba6b5-2982-4439-9c58-7e34ca419299",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 10,
+              "master": true,
+              "netcard_id": 401574212785121004,
+              "netcard_name": "d-eni-40157421",
+              "private_ip": "172.16.3.71",
+              "public_ip": "101.44.1.18",
+              "inner_floating_ip": "102.44.6.190"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "",
+          "subnet_id": "",
+          "private_ip": "",
+          "netcard_id": 0,
+          "netcard_name": "",
+          "inner_floating_ip": ""
+        },
+        "image": {
+          "id": "180",
+          "name": "CentOS 7.6 64位",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "1.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 0,
+          "name": ""
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 300,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 401574166916146924,
+        "created_at": "2022-04-02T08:00:55.708Z",
+        "name": "d-ecs-40157416",
+        "service_id": 401574166916015852,
+        "service_name": "kafka1-sh",
+        "area_name": "",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "30695d9a-beb6-4384-898f-4fc99074bcad",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 10,
+              "master": true,
+              "netcard_id": 401574166932793068,
+              "netcard_name": "d-eni-40157416",
+              "private_ip": "172.16.0.75",
+              "public_ip": "101.44.0.175",
+              "inner_floating_ip": "102.44.6.121"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "",
+          "subnet_id": "",
+          "private_ip": "",
+          "netcard_id": 0,
+          "netcard_name": "",
+          "inner_floating_ip": ""
+        },
+        "image": {
+          "id": "180",
+          "name": "CentOS 7.6 64位",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "1.5"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 0,
+          "name": ""
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 300,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      },
+      {
+        "organization_id": "",
+        "project_id": "",
+        "id": 401573949684688620,
+        "created_at": "2022-04-02T07:58:46.221Z",
+        "name": "d-ecs-40157394",
+        "service_id": 401573949667845868,
+        "service_name": "monitor-sh",
+        "area_name": "",
+        "site_name": "硅谷44区-双引擎",
+        "instance_uuid": "550a1397-d143-4c6b-8c91-811b79c05751",
+        "zone_id": 383900962420605004,
+        "networks": {
+          "edge_network": {
+            "id": 384032337148559460,
+            "name": "manageNetwork-guigu44",
+            "cidr": "172.16.0.0/16"
+          },
+          "edge_subnets": [
+            {
+              "id": 384032337148624996,
+              "name": "subnet-manageNetwork-guigu44",
+              "cidr": "172.16.0.0/16",
+              "bandwidth": 10,
+              "master": true,
+              "netcard_id": 401573949684754156,
+              "netcard_name": "d-eni-40157394",
+              "private_ip": "172.16.0.124",
+              "public_ip": "101.44.3.186",
+              "inner_floating_ip": "102.44.5.217"
+            }
+          ]
+        },
+        "vpc_network": {
+          "network_id": "",
+          "subnet_id": "",
+          "private_ip": "",
+          "netcard_id": 0,
+          "netcard_name": "",
+          "inner_floating_ip": ""
+        },
+        "image": {
+          "id": "180",
+          "name": "CentOS 7.6 64位",
+          "os_type": "linux",
+          "os_name": "CentOS"
+        },
+        "flavor": {
+          "id": 374779018131540608,
+          "name": "dcs.s1.medium2",
+          "flavor_type": "S",
+          "flavor_type_id": 374779018114763392,
+          "cpu": 1,
+          "ram": 2048,
+          "resource_types": [
+            {
+              "type": "internal_qos",
+              "name": "内网带宽Qos",
+              "extra": "2"
+            }
+          ]
+        },
+        "storage": {
+          "id": 0,
+          "created_at": "0001-01-01T00:00:00Z",
+          "updated_at": "0001-01-01T00:00:00Z",
+          "account_id": "",
+          "user_id": "",
+          "organization_id": "",
+          "project_id": "",
+          "storage_type": "",
+          "cache_size": 0,
+          "protocol": "",
+          "bandwidth": 0,
+          "bucket_area": "",
+          "bucket_id": "",
+          "bucket": "",
+          "mount_point": "",
+          "server_id": 0,
+          "status": "",
+          "site_id": 0,
+          "zone_id": 0,
+          "site_name": ""
+        },
+        "security_group": {
+          "id": 0,
+          "name": ""
+        },
+        "system_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345964644678,
+          "size": 50
+        },
+        "data_disk": {
+          "disk_type": "efficiency",
+          "disk_type_id": 321000345981422258,
+          "size": 500,
+          "count": 1
+        },
+        "key": {
+          "key_type": "password",
+          "key_id": 0,
+          "key_name": "",
+          "password": ""
+        },
+        "status": "active",
+        "balancer_count": 0,
+        "security_group_enabled": true
+      }
+    ],
+    "page_size": -1,
+    "total": 13
+  }
+}
